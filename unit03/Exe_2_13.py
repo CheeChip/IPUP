@@ -1,0 +1,15 @@
+import turtle as t
+import math
+t.screensize(1920, 1080)
+t.color("red")
+t.fillcolor("red")
+t.left(30)
+t.begin_fill()
+t.circle(200, steps=6)
+t.end_fill()
+t.penup()
+t.goto(-200, 75 * math.sqrt(3))
+t.color("white")
+t.write("STOP", font=("Times", 65, "bold"))
+t.hideturtle()
+t.done()
